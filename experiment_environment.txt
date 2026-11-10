@@ -1,0 +1,18 @@
+EXPERIMENT ENVIRONMENT & REPRODUCIBILITY
+=========================================
+Python Version      : 3.13.18
+OS                  : Linux 6.6.159+
+Processor           : x86_64
+
+Library Versions:
+- numpy             : 2.4.6
+- librosa           : 0.11.0
+- scikit-learn      : 1.6.1
+- xgboost           : 3.4.1
+- scipy             : 1.16.3
+
+Dataset Configuration:
+- N_MELS (M)        : 26
+- MFCC Coefficients : 13 (c1-c13, excluding c0)
+- ZCR Dimensions    : 1
+- Total Features    : 14 (Mean Aggregated)
